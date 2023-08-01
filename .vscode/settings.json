@@ -1,0 +1,11 @@
+{
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#ff0000",
+    "statusBar.foreground": "#ffffff",
+    "statusBarItem.hoverBackground": "#ff3333",
+    "statusBarItem.remoteBackground": "#ff0000",
+    "statusBarItem.remoteForeground": "#ffffff",
+    "tab.activeBorder": "#ff3333"
+  },
+  "cSpell.words": ["OMNIFOOD"]
+}
