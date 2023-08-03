@@ -182,7 +182,7 @@ REUSABLE COMPONENTS
   grid-template-columns: repeat(5, 1fr);
 }
 
-.grid-center-v {
+. .grid-center-v {
   align-items: center;
 }
 
