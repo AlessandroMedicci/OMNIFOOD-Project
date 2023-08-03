@@ -90,6 +90,7 @@ REUSABLE COMPONENTS
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -98,6 +99,8 @@ REUSABLE COMPONENTS
   text-decoration: none;
   padding: 1.6rem 3.2rem;
   border-radius: 15px;
+  border: none;
+  cursor: pointer;
 
   transition: all 300ms;
 }
@@ -124,6 +127,19 @@ REUSABLE COMPONENTS
   background-color: #fdf2e9;
   /* Trick >> Adding a border will increase the size of the element so we need to use box-shadow instead  */
   box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn-form {
+  background-color: #e67e22;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+  border-radius: 9px;
+}
+
+.btn-form:hover {
+  background-color: #fff;
+  color: #333;
 }
 
 .margin-right-sm {
@@ -192,4 +208,8 @@ strong {
   width: 3rem;
   height: 3rem;
   color: #e67e22;
+}
+
+*:focus {
+  outline: none;
 }
