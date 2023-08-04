@@ -43,6 +43,7 @@ html {
   10 / 16 (that is default size of the browser) = 0.625 = 62.5%
   */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -50,6 +51,8 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  /*It only works if there is no absolute positioning related to body and it must also be written in html element  */
+  overflow-x: hidden;
 }
 
 /******************
