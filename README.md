@@ -9,3 +9,5 @@
 😇 The project is a prove of successfully accomplished learning course of HTML5 & CSS3 mentored by Jonas.
 
 😇 The site is fully responsive.
+
+✅ Deployed on https://omnifood-project-alessandro.netlify.app/
